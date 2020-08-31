@@ -1,0 +1,19 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "Note Taker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Note",
+    "Taker",
+    "Note_Taker"
+  ],
+  "author": "Blaine Hoon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
