@@ -1,7 +1,7 @@
 var PORT = process.eng.PORT || 3001;
 app.listen(PORT, function() {
   app.get("/", function(req, res) {
-    res.json(path.join(_dirname, "public/index.html"));
+    res.json(path.join(_dirname, "C:\Users\Blaine Hoon\RiceBootcamp\Homework\Note_Taker\Develop\public\index.html"));
   });
 });
 
