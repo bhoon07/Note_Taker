@@ -1,3 +1,10 @@
+var PORT = process.eng.PORT || 3001;
+app.listen(PORT, function() {
+  app.get("/", function(req, res) {
+    res.json(path.join(_dirname, "public/index.html"));
+  });
+});
+
 const $noteTitle = $(".note-title");
 const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
